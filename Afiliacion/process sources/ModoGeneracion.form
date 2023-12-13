@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "text": "# Tipo de Generacion",
+      "type": "text",
+      "layout": {
+        "row": "Row_0o0edg6",
+        "columns": null
+      },
+      "id": "Field_0vl599v"
+    },
+    {
+      "values": [
+        {
+          "label": "Asesor",
+          "value": "Asesor"
+        },
+        {
+          "label": "DIAN",
+          "value": "DIAN"
+        }
+      ],
+      "label": "Seleccione el tipo de generacion para el nuevo codigo de la DIAN",
+      "type": "select",
+      "layout": {
+        "row": "Row_1d9blap",
+        "columns": null
+      },
+      "id": "Field_01hhus4",
+      "key": "Generacion",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ModoGeneracion",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

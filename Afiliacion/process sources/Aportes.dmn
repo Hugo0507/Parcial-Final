@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_1an8ehh" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="AportesEPS" name="AportesEPS">
+    <decisionTable id="DecisionTable_116mm6m">
+      <input id="Input_1" label="Ocupacion" camunda:inputVariable="Ocupacion">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0huw07a" label="Salario" camunda:inputVariable="Salario">
+        <inputExpression id="LiteralExpression_0nvxa49" typeRef="long">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Aporte" name="Aporte" typeRef="long" />
+      <rule id="DecisionRule_02rrrf8">
+        <inputEntry id="UnaryTests_0hx83dy">
+          <text>"Empleado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1fjuior">
+          <text>1</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1sr3v3t">
+          <text>8</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1fkl57u">
+        <inputEntry id="UnaryTests_1mcs4z2">
+          <text>"Empleado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0q9d8pd">
+          <text>2</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1ijv05l">
+          <text>8</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_16chii9">
+        <inputEntry id="UnaryTests_1528isv">
+          <text>"Empleado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1y8jv36">
+          <text>3</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0u8n0ko">
+          <text>8</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_05kzalo">
+        <inputEntry id="UnaryTests_0vcnx2j">
+          <text>"Independiente"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_142wudu">
+          <text>1</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1sqek1n">
+          <text>12</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_13trhc9">
+        <inputEntry id="UnaryTests_1l59k8s">
+          <text>"Independiente"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_17xy4qn">
+          <text>2</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_17e2si5">
+          <text>12</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0958br4">
+        <inputEntry id="UnaryTests_0oimo3s">
+          <text>"Independiente"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1a7xade">
+          <text>3</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_196kf3m">
+          <text>12</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1qdvbz3">
+        <inputEntry id="UnaryTests_1j0418w">
+          <text>"Pensionado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1stzmno">
+          <text>1</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ai7w9s">
+          <text>4</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0mehbi8">
+        <inputEntry id="UnaryTests_1mxqdah">
+          <text>"Pensionado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_15kzmod">
+          <text>2</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_13anvbk">
+          <text>10</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_05iyk84">
+        <inputEntry id="UnaryTests_0vckgmy">
+          <text>"Pensionado"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_02bl2x3">
+          <text>3</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1m4psrh">
+          <text>12</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="AportesEPS">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

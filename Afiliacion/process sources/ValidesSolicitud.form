@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "text": "# Valides de Solicitud",
+      "type": "text",
+      "layout": {
+        "row": "Row_0arjxw9",
+        "columns": null
+      },
+      "id": "Field_1y2hmpr"
+    },
+    {
+      "label": "Ingrese su nombre",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15dgfcj",
+        "columns": null
+      },
+      "id": "Field_027jwiv",
+      "key": "Nombre",
+      "description": "No ingrese numeros",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "label": "Ingrese numero de Cedula",
+      "type": "number",
+      "layout": {
+        "row": "Row_0vfbzyn",
+        "columns": null
+      },
+      "id": "Field_1n1nrgr",
+      "key": "Cedula",
+      "description": "No ingrese letras",
+      "validate": {
+        "required": false,
+        "min": 1
+      },
+      "disabled": true
+    },
+    {
+      "label": "Ingrese su edad",
+      "type": "number",
+      "layout": {
+        "row": null,
+        "columns": null
+      },
+      "id": "Field_1doqaii",
+      "key": "Edad",
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Soltero(a)",
+          "value": "1"
+        },
+        {
+          "label": "Casado(a)",
+          "value": "2"
+        }
+      ],
+      "label": "Estado Civil",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1v63f5y",
+        "columns": null
+      },
+      "id": "Field_1quefpq",
+      "key": "EstadoCivil",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Nueva EPS",
+          "value": "Nueva EPS"
+        },
+        {
+          "label": "Capital Salud",
+          "value": "Capital Salud"
+        },
+        {
+          "label": "CajaCopy",
+          "value": "CajaCopy"
+        },
+        {
+          "label": "Sanitas",
+          "value": "Sanitas"
+        }
+      ],
+      "label": "Elija la EPS",
+      "type": "select",
+      "layout": {
+        "row": "Row_14wsic6",
+        "columns": null
+      },
+      "id": "Field_1p072h7",
+      "key": "EPS",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "Si"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Es valida la solicitud?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1fy4hng",
+        "columns": null
+      },
+      "id": "Field_1lp62rj",
+      "key": "Valides",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ValidarSolicitud",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "text": "# Validar Documentos",
+      "type": "text",
+      "layout": {
+        "row": "Row_1p04rbj",
+        "columns": null
+      },
+      "id": "Field_0i1r9lf"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "Si"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Documentos Validos?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0srr19w",
+        "columns": null
+      },
+      "id": "Field_0jqpbcu",
+      "key": "ValidarDocumentos",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "ValidesDocumentos",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

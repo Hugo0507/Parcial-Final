@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Visualizar Codigo DIAN",
+      "type": "text",
+      "layout": {
+        "row": "Row_1tb522r",
+        "columns": null
+      },
+      "id": "Field_0hmm2sm"
+    },
+    {
+      "label": "Su codigo DIAN es:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0oy9wyw",
+        "columns": null
+      },
+      "id": "Field_1ucd013",
+      "key": "DIANCode",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "VisualizarCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

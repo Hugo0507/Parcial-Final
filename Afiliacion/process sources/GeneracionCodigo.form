@@ -1,0 +1,36 @@
+{
+  "components": [
+    {
+      "text": "# Generacion de Codigo DIAN",
+      "type": "text",
+      "layout": {
+        "row": "Row_0kuwmfk",
+        "columns": null
+      },
+      "id": "Field_173hptq"
+    },
+    {
+      "label": "Por favor, Agregue la edad al nombre ya definido en el campo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_120onn9",
+        "columns": null
+      },
+      "id": "Field_0ve7gcs",
+      "key": "DIANCode",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "HugoMondragon"
+    }
+  ],
+  "type": "default",
+  "id": "GeneracionCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

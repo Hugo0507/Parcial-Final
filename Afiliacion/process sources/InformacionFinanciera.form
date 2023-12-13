@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "text": "# Informacion Financiera",
+      "type": "text",
+      "layout": {
+        "row": "Row_0or2v90",
+        "columns": null
+      },
+      "id": "Field_1ywcbjc"
+    },
+    {
+      "values": [
+        {
+          "label": "Empleado",
+          "value": "Empleado"
+        },
+        {
+          "label": "Independiente",
+          "value": "Independiente"
+        },
+        {
+          "label": "Pensionado",
+          "value": "Pensionado"
+        }
+      ],
+      "label": "Elija su ocupacion",
+      "type": "select",
+      "layout": {
+        "row": "Row_07mutj1",
+        "columns": null
+      },
+      "id": "Field_0lq6qds",
+      "key": "Ocupacion",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "1SMLV",
+          "value": "1"
+        },
+        {
+          "label": "1SMLV - 2SMLV",
+          "value": "2"
+        },
+        {
+          "label": "> 2SMLV",
+          "value": "3"
+        }
+      ],
+      "label": "Elija su rango salarial",
+      "type": "select",
+      "layout": {
+        "row": "Row_1xmnkm9",
+        "columns": null
+      },
+      "id": "Field_1v8sv7y",
+      "key": "Salario",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "InformacionFinanciera",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
